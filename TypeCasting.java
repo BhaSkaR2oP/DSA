@@ -22,9 +22,14 @@ public class TypeCasting {
         System.out.println(num2);
 
         // automatic type promotion in expressions
-        int a =257;
-        byte b = (byte)(a);  // 257 % 256= 1
-        System.out.println(b);
+//        int a =257;
+//        byte b = (byte)(a);  // 257 % 256= 1
+//        System.out.println(b);
+
+        int number ='a'; //ASCII VALUE
+        int numberr = 'A';
+        System.out.println(number);
+        System.out.println(numberr);
 
 
     }
