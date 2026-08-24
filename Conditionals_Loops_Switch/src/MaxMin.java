@@ -1,13 +1,14 @@
 import java.util.*;
-public class Main {
+
+public class MaxMin {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         //Largest of 3 nos
 
-        int a=input.nextInt();
-        int b=input.nextInt();
-        int c=input.nextInt();
+        int a = input.nextInt();
+        int b = input.nextInt();
+        int c = input.nextInt();
 //        int max=a;
 //        if(b>max)
 //            max=b;
@@ -19,7 +20,7 @@ public class Main {
 
         // Or
 
-        int max = Math.max(c,Math.max(a,b));
+        int max = Math.max(c, Math.max(a, b));
         System.out.println(max);
     }
 }
