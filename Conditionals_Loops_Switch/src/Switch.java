@@ -11,6 +11,7 @@ public class Switch {
                 break;
             case "Apple":
                 System.out.println("A sweet red Fruit");
+                break;
             case "Orange":
                 System.out.println("A sour round fruit");
                 break;
